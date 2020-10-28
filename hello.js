@@ -1,6 +1,6 @@
 var http = require('http');
 http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+	 res.end('Hello Continuouse Integration team CSC480\n');
   res.end('Hello Travis!\n');
 	//add testing
 }).listen(1337, '127.0.0.1');
